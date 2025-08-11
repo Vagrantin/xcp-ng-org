@@ -22,7 +22,7 @@ const config = {
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace 'en' with 'zh-Hans'.
+  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -50,8 +50,9 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          // Remove this to remove the 'edit this page' links.
-          editUrl: 'https://github.com/xcp-ng/xcp-ng-org/edit/master/',
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/xcp-ng/xcp-ng-org/edit/master/',
         },
         blog: false,
         theme: {
@@ -71,13 +72,9 @@ const config = {
           src: 'img/xcpcrop128.png',
         },
         items: [
-          { href: 'https://xcp-ng.org', label: 'Home', position: 'right' },
-          { href: 'https://xcp-ng.org/blog', label: 'Blog', position: 'right' },
-          {
-            href: 'https://vates.tech',
-            label: 'Pro Support',
-            position: 'right',
-          },
+          {href: 'https://xcp-ng.org', label: 'Home', position: 'right'},
+          {href: 'https://xcp-ng.org/blog', label: 'Blog', position: 'right'},
+          {href: 'https://vates.tech', label: 'Pro Support', position: 'right'},
           {
             href: 'https://github.com/xcp-ng',
             label: 'GitHub',
@@ -158,9 +155,9 @@ const config = {
           gantt: {
             fontSize: 25,
             barHeight: 70,
-          },
+          }
         },
-      },
+      }
     }),
   plugins: [require.resolve('docusaurus-lunr-search')],
 };
